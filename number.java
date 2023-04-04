@@ -5,7 +5,7 @@ class number {
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
          Random random = new Random();
-         int numberToGuess = random.nextInt(101);
+         int numberToGuess = random.nextInt(100)+1;
          int numberOfGuesses = 0;
 		int score=10;
 
